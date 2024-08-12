@@ -1,7 +1,7 @@
 
 # Welcome {.unnumbered}
 
-![](../assets/images/startup.png){fig-align="center" fig-alt="Management of Software Development in Python (banner image)"}
+![](/assets/images/startup.png){fig-align="center" fig-alt="Management of Software Development in Python (banner image)"}
 
 Welcome to the \"Management of Software Development in Python\" book (2024 edition, online)!
 
