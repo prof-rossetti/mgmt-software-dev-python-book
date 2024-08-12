@@ -2,14 +2,14 @@ project:
   type: book
   output-dir: "_build" # '_book' by default
   preview:
-    port: 4567
+    port: 3244
     browser: true
 
 # https://quarto.org/docs/books/
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "My Book"
-  author: "Norah Jones"
+  title: "Management of Software Development in Python"
+  author: "Michael J Rossetti"
   date: "last-modified" # "7/24/2024"
   date-format: "iso"
   #doi: "...."
@@ -20,14 +20,14 @@ book:
   # https://quarto.org/docs/websites/website-tools.html#google-analytics
   #google-analytics: "G-..."
 
-  site-url: https://s2t2.github.io/quarto-book-template/
-  repo-url: https://github.com/s2t2/quarto-book-template
+  repo-url: https://github.com/prof-rossetti/mgmt-software-dev-python-book/
+  site-url: https://prof-rossetti.github.io/mgmt-software-dev-python-book/
   repo-branch: main
   repo-subdir: docs
   repo-actions: [edit, issue, source]
   downloads: [pdf, epub, docx]
 
-  sharing: [twitter, facebook]
+  #sharing: [twitter, facebook]
   # https://quarto.org/docs/websites/website-tools.html#open-graph
   open-graph: true
 
@@ -36,12 +36,12 @@ book:
     #location: sidebar # navbar, sidebar
     #type: textbox # overlay, textbox
 
-  cover-image: assets/images/cover.png
+  #cover-image: assets/images/startup.png
   #favicon: assets/images/favicon.ico
 
   # https://quarto.org/docs/websites/website-navigation.html#side-navigation
   sidebar:
-    logo: assets/images/quarto-dark-bg.jpeg
+    logo: assets/images/startup.png
     #title: false # doesn't work? (see custom CSS in styles.css to hide)
     #tools:
     #  #- icon: twitter
@@ -55,23 +55,24 @@ book:
 
   chapters:
     - index.qmd
-    - intro.qmd
+    #- why-python.qmd
 
-    - part: "Part I"
-      #href:  part-1/index.qmd
-      chapters:
-        - part-1/chap-1.qmd
-        - part-1/chap-2.qmd
+    #- part: "Part I"
+    #  #href:  part-1/index.qmd
+    #  chapters:
+    #    - part-1/chap-1.qmd
+    #    - part-1/chap-2.qmd
 
     #- part: "Part II"
-    #  #href:  part-2/index.qmd
     #  chapters:
     #    - part-2/chap-3.qmd
     #    - part-2/chap-4.qmd
 
-    - summary.qmd
-    - references.qmd
+    #- summary.qmd
+    #- references.qmd
 
+    - "------------"
+    - about-author.qmd
 
   # shows up at bottom of page
   #body-footer: "&copy; Copyright 2024, Your Name Here"

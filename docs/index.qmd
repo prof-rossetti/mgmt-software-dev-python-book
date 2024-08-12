@@ -1,5 +1,29 @@
-# Preface {.unnumbered}
 
-This is a Quarto book.
+# Welcome {.unnumbered}
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+![](../assets/images/startup.png){fig-align="center" fig-alt="Management of Software Development in Python (banner image)"}
+
+Welcome to the \"Management of Software Development in Python\" book (2024 edition, online)!
+
+This book will introduce you to software development tools and best practices, tailored specifically for business students, professionals, and aspiring entrepreneurs. Whether you're looking to gain a better understanding of how to manage the software development process, communicate effectively with technical teams, or take the lead on a tech-driven project, this book is designed to equip you with the essential skills and knowledge.
+
+In today's fast-paced business environment, having a solid grasp of technical concepts is crucial. This book will empower you to speak the language of developers, manage technical teams with confidence, and even bring your own innovative ideas to life by creating prototype applications that could serve as the foundation for a startup.
+
+Throughout this book, we'll cover key units designed to build your competence and confidence in software development:
+
+1. **Local Development Tools** – Learn how to install and configure Python development tools on your local machine, setting the stage for effective coding practices.
+
+2. **Version Control** – Master the essentials of version control to track changes, collaborate efficiently, and maintain the integrity of your projects.
+
+3. **Code Organization, Simplification, and Refactoring** – Understand the principles of clean code, making your projects easier to manage, extend, and scale.
+
+4. **Automated Testing and Continuous Integration** – Explore the practices that ensure your code is reliable, maintainable, and ready for deployment at any time.
+
+5. **Software Products and Services** – Dive into the process of building web applications and deploying them to user-facing production environments, bringing your ideas to life.
+
+
+This book isn't about learning to code - it assumes you already have an introductory level working knowledge in Python programming. If you need to brush up on Python programming first, check out the [Intro to Python Programming book](https://prof-rossetti.github.io/intro-software-dev-python-book) and gain practice programming in Python Notebooks, then come back here afterwards.
+
+By the end of this journey, you'll be equipped to manage software development processes, lead technical teams, and perhaps even turn your entrepreneurial ideas into reality.
+
+Let’s get started!
