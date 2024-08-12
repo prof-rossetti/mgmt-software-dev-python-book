@@ -1,0 +1,12 @@
+/* hide book title and tools in the sidebar
+
+.sidebar-title > a {
+  display: none;
+}
+*/
+
+/* hide just the book title in the sidebar
+.sidebar-title > a {
+  display: none;
+}
+*/

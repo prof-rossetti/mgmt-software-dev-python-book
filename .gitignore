@@ -1,0 +1,8 @@
+
+
+.DS_Store
+
+docs/.quarto
+docs/_site
+docs/_book/
+docs/_build/
